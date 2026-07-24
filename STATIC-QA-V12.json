@@ -1,0 +1,15 @@
+{
+  "html_files": 44,
+  "js_files": 42,
+  "internal_references": 3813,
+  "jsonld_blocks": 40,
+  "duplicate_ids": 0,
+  "invalid_jsonld": 0,
+  "missing_internal_references": 0,
+  "seo_metadata_issues": 0,
+  "tool_pages": 9,
+  "result_or_report_shells": 10,
+  "serverless_functions": 3,
+  "obsolete_gemini_model_references": 0,
+  "qa_passed": true
+}

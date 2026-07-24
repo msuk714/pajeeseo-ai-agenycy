@@ -1,0 +1,126 @@
+{
+  "tests": [
+    {
+      "name": "pagespeed-mobile",
+      "status": 200,
+      "required_keys": [
+        "scores",
+        "fieldMetrics",
+        "diagnostics"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "pagespeed-desktop",
+      "status": 200,
+      "required_keys": [
+        "scores",
+        "fieldMetrics",
+        "diagnostics"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "keyword-intelligence",
+      "status": 200,
+      "required_keys": [
+        "keywords",
+        "primaryIntent"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "public-visibility",
+      "status": 200,
+      "required_keys": [
+        "searchReadinessScore",
+        "signalScores"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "public-traffic",
+      "status": 200,
+      "required_keys": [
+        "channelMix",
+        "visibilityProfile"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "ai-roadmap",
+      "status": 200,
+      "required_keys": [
+        "roadmap",
+        "competitors"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "backlink-intelligence",
+      "status": 200,
+      "required_keys": [
+        "links",
+        "aiAssist",
+        "authority"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "schema-intelligence",
+      "status": 200,
+      "required_keys": [
+        "pages",
+        "summary",
+        "recommendations"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "whole-site-discovery",
+      "status": 200,
+      "required_keys": [
+        "urls",
+        "sitemapFiles"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "google-gsc-report",
+      "status": 200,
+      "required_keys": [
+        "metrics",
+        "chart",
+        "rows",
+        "pagination"
+      ],
+      "missing_keys": [],
+      "passed": true
+    },
+    {
+      "name": "google-ga4-report",
+      "status": 200,
+      "required_keys": [
+        "metrics",
+        "chart",
+        "rows",
+        "pagination"
+      ],
+      "missing_keys": [],
+      "passed": true
+    }
+  ],
+  "passed": 11,
+  "total": 11,
+  "all_passed": true,
+  "note": "Controlled API-shaped responses were used to validate report contracts. Live third-party services still depend on production keys, quotas, OAuth permissions and target-site access."
+}
